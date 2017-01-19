@@ -1,0 +1,141 @@
+/******************************************************
+MAIN ELEMENTS
+******************************************************/
+
+body {
+    background: lightgrey;
+}
+
+div{
+    font-family: Baskerville, "Hoefler Text", Garamond, "Times New Roman", serif; 
+}
+
+section{
+    height: 50%;
+}
+
+/******************************************************
+FIRST SECTION
+******************************************************/
+
+.ttp-logo{
+        width: 300px;
+        height: 100px;
+        display: none;
+		position:relative
+}
+
+#redbox, .CSS3Box, .CSS3TransformBox{
+	width:80px;
+	height:80px;
+	background-color:red;
+	position:relative
+}
+
+li.thingdescription{
+display: none
+}
+
+.items{
+float: left;
+width: 200px;
+}
+
+.together{
+    padding: 10px 0px 10px 0px;
+    clear: left=
+}
+
+/******************************************************
+ANIMATIONS
+******************************************************/
+
+@keyframes CSS3Animation {
+    0% {background-color: red; top:0px ;}
+    50% {background-color: blue; top:400px ;border-radius: 100%;}
+    100% {background-color: red; top:0px;}
+}
+
+.CSS3Box {
+    top : 0px;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    display: none;
+}
+
+#CSS3AnimationControl {
+    display: block;
+}
+
+/******************************************************
+VIDEO
+******************************************************/
+
+.video {
+    height: 400px;
+    width: 800px;
+    display:none;
+}
+
+/******************************************************
+AUDIO
+******************************************************/
+
+.audio {
+    display: none;
+}
+
+/******************************************************
+CSS TRANSFORMS
+******************************************************/
+
+.CSS3TransformBox {
+    top: 0px;
+    display: none;
+}
+
+#CSS3Transform1 {
+    transition: transform, 3s;
+}
+
+#CSS3Transform2 {
+    transition: transform, 3s;
+}
+
+#CSS3Transform3 {
+    transition: transform, 3s;
+}
+
+#CSS3Transform4 {
+    transition: transform, 3s;
+}
+
+#CSS3Transform1:hover {
+    transform: rotateX(180deg);
+}
+
+#CSS3Transform2:hover {
+    transform: rotateY(180deg);
+}
+
+#CSS3Transform3:hover {
+    transform: scale3d(3,3,3);
+}
+
+#CSS3Transform4:hover {
+    transform: translate3d(100px,-100px,100px);
+}
+
+/******************************************************
+CLASS TO DISPLAY ITEM INLINE
+******************************************************/
+
+.displayInline{
+    display:inline-block;
+}
+
+
+
+
+
